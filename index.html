@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>怪怪動物</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/myall.css">
+  <style>
+    body {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(./images/bg.jpg);
+      /* background-position: center center; */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .word1 {
+      font-weight: bolder;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      color: var(--mycolor1);
+      padding: 15px;
+      margin-top: 20px;
+      font-size: 48px;
+    }
+
+    @media screen and (max-width:768px) {
+      .word1 {
+        font-size: 24px;
+        margin-top: 40px;
+        background-color: rgba(241, 11, 11, 0.3);
+      }
+    }
+  </style>
+</head>
+<body class="bg-cover">
+  <nav class="navbar navbar-expand-lg" style="background-color: var(--mycolor8);">
+    <div class="container-fluid">
+        <a class="navbar-brand h2 rounded-pill mt-2 shadow-lg border border-2 border-success"
+            style="width: 100px; text-align: center; background-color: var(--mycolor1);" href="./index.html"
+            target="_self">怪怪動物</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active border border-2 border-danger rounded-pill"
+                        style="background-color: var(--mycolor1); text-align: center;" aria-current="page"
+                        href="./index.html" target="_self">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  border border-2 border-danger rounded-pill" target="_self"
+                        style="background-color: var(--mycolor1);text-align: center;" href="./about.html">關於我們</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle border border-2 border-danger rounded-pill"
+                      style="background-color: var(--mycolor1); text-align: center;" href="#" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">動物種類</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./menu.html" target="_self">荔枝狗</a></li>
+                      <li><a class="dropdown-item" href="#">菜狗</a></li>
+                      <li><a class="dropdown-item" href="#">哈密龜</a></li>
+                      <li><a class="dropdown-item" href="#">柳丁鼠</a></li>
+                      <li><a class="dropdown-item" href="#">橘子獅</a></li>
+                      <li><a class="dropdown-item" href="#">水蜜袋鼯</a></li>
+                      <li><a class="dropdown-item" href="#">鳳梨狗</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ">
+        <div class="word1  user-select-all border border-5 border-start-0 border-top-0 border-dark rounded-3">
+          關愛野生動物，保護美好家園！</div>
+      </div>
+      <div class="col-md-6  user-select-all ">
+        <div class="word1 user-select-all border border-5 border-start-0 border-top-0 border-dark rounded-3">
+          提高環境意識，愛護花草樹木!</div>
+      </div>
+      <div class="col-md-6  ">
+        <div class="word1 user-select-all border border-5 border-start-0 border-top-0 border-dark rounded-3">
+          保護野生動物就是保護人類自己！</div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="word1 user-select-all border border-5 border-start-0 border-top-0 border-dark rounded-3">
+          關愛野生動物，保護美好家園！</div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="word1 user-select-all border border-5 border-start-0 border-top-0 border-dark rounded-3">同在藍天下
+          人鳥共家園。</div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="word1 user-select-all border border-5 border-start-0 border-top-0 border-dark rounded-3">
+          提高環境意識，愛護花草樹木!</div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="word1 user-select-all border border-5 border-start-0 border-top-0 border-dark rounded-3">同在藍天下
+          人鳥共家園。</div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

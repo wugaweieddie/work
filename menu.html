@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>動物種類</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/myall.css">
+  <style>
+    .banner {
+      height: 200px;
+      background-image: url(./images/公園秋霧霧樹葉_-_自然高清壁紙桌布_1024x768[10wallpaper.com].jpg);
+      background-repeat: repeat-x;
+      background-position: center center;
+      /* background-size: cover; */
+    }
+
+    .card {
+      height: 500px;
+    }
+    @media screen and (max-width:767px) {
+      .vadog{
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: var(--mycolor8);">
+    <div class="container-fluid">
+      <a class="navbar-brand h2 rounded-pill mt-2 shadow-lg border border-2 border-success"
+        style="width: 100px; text-align: center; background-color: var(--mycolor1);" href="./index.html"
+        target="_self">怪怪動物</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link  border border-2 border-danger rounded-pill"
+              style="background-color: var(--mycolor1); text-align: center;" aria-current="page" href="./index.html"
+              target="_self">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  border border-2 border-danger rounded-pill" target="_self"
+              style="background-color: var(--mycolor1);text-align: center;" href="./about.html">關於我們</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle border border-2 border-danger rounded-pill"
+              style="background-color: var(--mycolor1); text-align: center;" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">動物種類</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./menu.html" target="_self">荔枝狗</a></li>
+              <li><a class="dropdown-item" href="#">菜狗</a></li>
+              <li><a class="dropdown-item" href="#">哈密龜</a></li>
+              <li><a class="dropdown-item" href="#">柳丁鼠</a></li>
+              <li><a class="dropdown-item" href="#">橘子獅</a></li>
+              <li><a class="dropdown-item" href="#">水蜜袋鼯</a></li>
+              <li><a class="dropdown-item" href="#">鳳梨狗</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="banner"></div>
+  <div class="container">
+    <h3 class="text-warning fw-bolder mt-3">|動物種類<small class="text-muted">animal species</small></h3>
+    <div class="row">
+      <div class="col-md-4 mt-3">
+        <div class="card text-center" style="background: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.7));">
+          <img src="./images/dog2.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title h3 fw-bolder text-danger mt-auto">荔枝狗</h5>
+            <p class="card-text text-white">得名於其圓滾滾的頭部形狀，有些人認為像荔枝一樣。</p>
+            <a href="./litchidog.html" class="btn btn-primary">了解更多</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card text-center" style="background: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.7));">
+          <img src="./images/dog1.jpg" class="card-img-top vadog" alt="...">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title h3 fw-bolder mt-auto" style="color: greenyellow;">菜狗</h5>
+            <p class="card-text text-white">菜狗富含纖維，有助於消化系統健康，並有助於體重管理。</p>
+            <a href="#" target="_self" class="btn btn-primary">了解更多</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card text-center" style="background: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.7));">
+          <img src="./images/dog5.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title h3 fw-bolder text-warning mt-auto">橘子狗</h5>
+            <p class="card-text text-white">橘子的果肉有一種甜美的味道，通常非常多汁。甜橙的味道較甜，而酸橙則味道更酸。</p>
+            <a href="#" class="btn btn-primary">了解更多</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card text-center" style="background: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.7));">
+          <img src="./images/dog7.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title h3 fw-bolder text-info mt-auto">鳳梨狗</h5>
+            <p class="card-text text-white">鳳梨的果實呈圓錐形或卵形，外皮粗糙，覆蓋著鱗片狀的角質部分，呈黃色或橙黃色。果肉呈黃色，質地多汁。</p>
+            <a href="#" class="btn btn-primary">了解更多</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer mt-3">
+    <div class="text-bg-dark text-center p-2">跨平台班級製作2023.10</div>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
